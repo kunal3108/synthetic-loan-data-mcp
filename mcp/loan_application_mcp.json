@@ -1,0 +1,65 @@
+{
+  "name": "Synthetic Loan Data MCP",
+  "version": "1.0",
+  "description": "Context protocol for synthetic_loan_data.xlsx used in Slack-AI workflows.",
+  "fields": [
+    {
+      "name": "ID",
+      "type": "string",
+      "description": "Loan application ID"
+    },
+    {
+      "name": "BRANCH NAME",
+      "type": "string",
+      "description": "Branch where loan was applied"
+    },
+    {
+      "name": "CREATED AT",
+      "type": "number",
+      "format": "excel_serial_date",
+      "description": "Date application was created (Excel serial date)"
+    },
+    {
+      "name": "UPDATED AT",
+      "type": "number",
+      "format": "excel_serial_date",
+      "description": "Date last updated (Excel serial date)"
+    },
+    {
+      "name": "LOAN AMOUNT",
+      "type": "number",
+      "description": "Amount requested"
+    },
+    {
+      "name": "Application Status",
+      "type": "enum",
+      "enum": [
+        "Loan Declined", "Disbursed", "Submitted",
+        "Draft: Fresh", "Draft: Query",
+        "Pending Disbursement", "Credit Evaluation 1"
+      ],
+      "description": "Status of loan application"
+    },
+    {
+      "name": "Aging",
+      "type": "number",
+      "description": "Days since last update"
+    },
+    {
+      "name": "Sanction Date",
+      "type": "number",
+      "format": "excel_serial_date",
+      "description": "Date loan was sanctioned (Excel serial date)"
+    },
+    {
+      "name": "Pending Disbursement Aging",
+      "type": "number",
+      "description": "Number of days since 'Updated At' for records where Application Status is 'Pending Disbursement'. Blank otherwise."
+    }
+  ],
+  "guardrails": [
+    "Only use information present in this data",
+    "Do not infer values not found in the JSON",
+    "Respond with 'I am unsure' if data is not sufficient"
+  ]
+}
