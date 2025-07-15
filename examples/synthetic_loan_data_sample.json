@@ -1,0 +1,79 @@
+[
+  {
+    "ID": "APP100010",
+    "BRANCH NAME": "Mumbai",
+    "CREATED AT": 45292.0,
+    "UPDATED AT": 45296.0,
+    "LOAN AMOUNT": 500000,
+    "Application Status": "Loan Declined",
+    "Aging": 4,
+    "Sanction Date": 45293.0,
+    "Pending Disbursement Aging": null
+  },
+  {
+    "ID": "APP100011",
+    "BRANCH NAME": "Delhi",
+    "CREATED AT": 45323.0,
+    "UPDATED AT": 45332.0,
+    "LOAN AMOUNT": 750000,
+    "Application Status": "Disbursed",
+    "Aging": 9,
+    "Sanction Date": 45327.0,
+    "Pending Disbursement Aging": null
+  },
+  {
+    "ID": "APP100012",
+    "BRANCH NAME": "Kolkata",
+    "CREATED AT": 45366.0,
+    "UPDATED AT": 45371.0,
+    "LOAN AMOUNT": 600000,
+    "Application Status": "Submitted",
+    "Aging": 5,
+    "Sanction Date": 45367.0,
+    "Pending Disbursement Aging": null
+  },
+  {
+    "ID": "APP100013",
+    "BRANCH NAME": "Chennai",
+    "CREATED AT": 45392.0,
+    "UPDATED AT": 45394.0,
+    "LOAN AMOUNT": 300000,
+    "Application Status": "Draft: Fresh",
+    "Aging": 2,
+    "Sanction Date": null,
+    "Pending Disbursement Aging": null
+  },
+  {
+    "ID": "APP100014",
+    "BRANCH NAME": "Hyderabad",
+    "CREATED AT": 45413.0,
+    "UPDATED AT": 45417.0,
+    "LOAN AMOUNT": 820000,
+    "Application Status": "Draft: Query",
+    "Aging": 4,
+    "Sanction Date": null,
+    "Pending Disbursement Aging": null
+  },
+  {
+    "ID": "APP100015",
+    "BRANCH NAME": "Bangalore",
+    "CREATED AT": 45444.0,
+    "UPDATED AT": 45453.0,
+    "LOAN AMOUNT": 900000,
+    "Application Status": "Pending Disbursement",
+    "Aging": 5,
+    "Sanction Date": 45448.0,
+    "Pending Disbursement Aging": 35
+  },
+  {
+    "ID": "APP100016",
+    "BRANCH NAME": "Ahmedabad",
+    "CREATED AT": 45474.0,
+    "UPDATED AT": 45478.0,
+    "LOAN AMOUNT": 150000,
+    "Application Status": "Credit Evaluation 1",
+    "Aging": 3,
+    "Sanction Date": null,
+    "Pending Disbursement Aging": null
+  }
+]
